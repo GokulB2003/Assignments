@@ -1,0 +1,29 @@
+/*Q28. Write a java program to Check Number Is Spy Number or Not.
+Example : A number is said to be a Spy number if the sum of all the digits is equal to the product of all digits.
+ 	Input : 1412
+	Output : Spy Number
+	Explanation :
+	sum = (1 + 4 + 1 + 2) = 8
+	product = (1 * 4 * 1 * 2) = 8
+	since, sum == product == 8
+*/
+import java.util.*;
+public class CheckNeonSumPro{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+int n=sc.nextInt();
+int sum=0;
+int pr=1;
+while(n!=0)
+{
+int rem=n%10;
+sum+=rem;
+pr=pr*rem;
+n=n/10;
+}
+String str=(sum==pr)? "Spy" :"Not Spy";
+System.out.println(str);
+
+}
+}
