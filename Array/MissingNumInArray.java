@@ -15,7 +15,7 @@ public class MissingNumInArray
 					//Scanner sc=new Scanner(System.in);
 			int arr[]={1,2,5};
 			int count=1;
-			boolean flag=true;
+			
 			for(int i=1; i<arr.length; i++)
 			{
 				if(arr[i]==arr[i-1])

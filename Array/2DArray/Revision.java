@@ -3,17 +3,21 @@ public class Revision
 {
 public static void main (String args[])
 {
-	//Scanner sc=new Scanner(System.in);
-	int a=Integer.parseInt(args[0]);
-	int b=Integer.parseInt(args[1]);
-	char ch=args[2].charAt(0);
-	//int d=args[3].next();
-	a=a^b;
-	b=a^b;
-	a=a^b;
-	final int p=10;
-	++p;
-	System.out.println((char)(ch+32));
-	System.out.println(p);
+
+		 //Scanner sc=new Scanner(System.in);
+        int arr[]={1,4,5};
+        for(int i=1; i<arr.length; i++)
+        {
+            if((arr[i]-arr[i-1])!=1)
+            {
+                int k=arr[i-1]+1;
+                while(k<arr[i])
+                {
+                    System.out.print(k+" ");
+                    k++;
+                }
+            }
+        }
 }	
+
 }

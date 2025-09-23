@@ -18,7 +18,7 @@ public class MenuDriven
 	{
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Choose the Menu");
-		int EXIT=0;
+		
 		int choose;
 		
 		do
