@@ -6,7 +6,7 @@ public class RemoveDuplicates
 	public static void main(String args[])
 	{
 		Scanner sc=new Scanner(System.in);
-		int arr[]={10,20,20,20,90};
+		int arr[]={10,20,20,20,-1,-1};
 		//Arrays.sort(arr);
 		int count=0;
 		for(int i=0; i<arr.length; i++)
@@ -17,8 +17,7 @@ public class RemoveDuplicates
 				{	
 					//arr[j]=arr[j+1];
 					arr[j]=-1;
-					
-					
+				
 				}				
 			}
 
