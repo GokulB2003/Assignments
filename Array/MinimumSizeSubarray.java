@@ -31,7 +31,7 @@ public class MinimumSizeSubarray
 			}
 			r++;
 		}
-		System.out.print("the minimum size of subarray is:"+maxi);
+		System.out.print("the minimum size of subarray is:"+maxi+"\n");
 		System.out.println("[");
 		while(i<=j)
 		{

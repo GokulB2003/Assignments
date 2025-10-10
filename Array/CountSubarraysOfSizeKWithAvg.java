@@ -20,7 +20,7 @@ public class CountSubarraysOfSizeKWithAvg
 		}
 		
 		
-		if((float)sum/k ==2)
+		if((float)sum/k >=2)
 		{
 			count++;
 		}
@@ -29,7 +29,7 @@ public class CountSubarraysOfSizeKWithAvg
 			sum+=arr[i];
 			sum=sum-arr[i-k];
 			
-			if((float)sum/k ==2)
+			if((float)sum/k >=2)
 			{
 				count++;
 			}
