@@ -64,7 +64,7 @@ public class TrappingRainWater
 			{
 				mini=rightMax;
 			}
-			System.out.println(mini);
+			
 			if(mini>arr[i])
 			{	
 				s=mini-arr[i];

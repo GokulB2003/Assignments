@@ -2,7 +2,7 @@
 
 
 import java.util.*;
-public class AlphabetPalindromicPatt
+public class AlphabetPalindromicPattern
 {
 	public static void main(String args[])
 	{	//char ch='A';

@@ -2,20 +2,26 @@
 
 
 import java.util.*;
-public class AlphabetPalindromicPatt
+public class AlphabetPalindromicPatternNew
 {
 	public static void main(String args[])
 	{	//char ch='A';
-		char ch='A';
-		for(int i=1; i<=9; i++)
+		
+		for(int i=1; i<=5; i++)
 		{
-
-		    for(int j=1; j<=5; j++)
+			char ch='A';
+			ch=(char)(ch+(i-1));
+		    for(int j=1; j<=9; j++)
 		    {
 			
 				if(j>=(6-i) && j<=(i+4))
-				{
-					System.out.print(ch);
+				{	
+					if(j<5)
+					System.out.print(ch--);
+					else
+					{
+						System.out.print(ch++);
+					}
 				}
 				else
 				{
