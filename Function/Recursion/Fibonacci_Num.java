@@ -1,4 +1,5 @@
 /*Write a program to print the first n Fibonacci numbers using recursion.
+we can also use dynamic programming
 */
 import java.util.*;
 class PrintFibbo
