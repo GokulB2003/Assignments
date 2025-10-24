@@ -14,6 +14,7 @@ public class ABC
 				{
 					System.out.print(i+" ");
 				}
+			 /**/
 				if(j==(6-i))
 				{
 					System.out.print(n);
